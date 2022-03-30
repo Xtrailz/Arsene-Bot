@@ -5,7 +5,7 @@ exports.wait = () => {
     return `⏳ Mohon tunggu sebentar~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `Done.`
 }
 
 exports.err = () => {
@@ -88,13 +88,13 @@ exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
 saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
 Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+lapor owner agar segera di perbaiki.      
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 List-Menu Arsene Bot :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -107,10 +107,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 
 
 ╭─❒ 「 Owner 」 
-├ < evaluate
-├ > evaluate
-├ $ exec
-├ => exec
 ├ ${prefix}setmenu [query]
 ├ ${prefix}setmenu templateLocation
 ├ ${prefix}setmenu templateTenor
@@ -783,6 +779,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╭─❒ 「 TqTo 」 
 ├ My God
 ├ My Parents
+├ Hillal Zian
 ├ Fatih A.
 ├ Ferdi
 ├ DikaArdnt
@@ -826,19 +823,16 @@ Sanksi: *PERMANENT BLOCK*
 
 Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
+⚠️ Segala kebijakan dan ketentuan Arsene di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
+Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Arsene Bot.
 😖🙏
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄
 	
 ╭ 𝖭𝖺𝗆𝖺 :
-├ 𝖴𝗆𝗎𝗋 :
-├ 𝖦𝖾𝗇𝖽𝖾𝗋 :
-├ 𝖠𝗌𝗄𝗈𝗍 :
 ╰❒ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
 }
 exports.leave = () =>{
@@ -848,18 +842,17 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+Base : https://shrt.cx/BYZXce
 `
 }
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
 
-Hai kak ☺️ 
+Hai kak 
 Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
 
-Berapapun donasi kalian akan sangat berarti 👍
+Berapapun donasi kalian akan sangat berarti 
 
 Thanks!
 
@@ -882,10 +875,6 @@ exports.info = (prefix) =>{
 
 exports.ownermenu = (prefix) =>{
 return`╭─❒ 「 Owner 」 
-├ < evaluate
-├ > evaluate
-├ $ exec
-├ => exec
 ├ ${prefix}setmenu [query]
 ├ ${prefix}setmenu templateLocation
 ├ ${prefix}setmenu templateTenor
@@ -1123,6 +1112,7 @@ exports.ranime = (prefix) =>{
 
 exports.nsfw = (prefix) =>{
 	return`╭─❒ 「 Nsfw & Sfw 」
+_*Chat owner jika ingin diaktifkan*_
 ├ ${prefix}ahegao
 ├ ${prefix}ass
 ├ ${prefix}bdsm

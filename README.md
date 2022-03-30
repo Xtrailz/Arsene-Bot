@@ -1,10 +1,10 @@
 <p align="center">
-<img src="https://telegra.ph/file/feabd7327d93af4a46204.jpg" alt="Xtrailz Bot MD" width="300"/>
+<img src="https://telegra.ph/file/9048a91804aa430340848.jpg" alt="Arsene" width="300"/>
 
 
 </p>
 <p align="center">
-<a href="#"><img title="Xtrailz Bot MD V3" src="https://img.shields.io/badge/XtrailzBotMDV3-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="Arsene" src="https://img.shields.io/badge/Arsene-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/DikaArdnt"><img title="Author" src="https://img.shields.io/badge/Author-Dika-red.svg?style=for-the-badge&logo=github"></a>
